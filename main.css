@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bin {
+  font-size: 4rem;
+}
+.cal {
+  flex: 0 0 95%;
+}
+.back {
+  font-size: 4rem;
+}
+.screen {
+  width: 100%;
+  font-size: 7rem;
+  padding: 0.5rem;
+  background-color: #170f11;
+  color: white;
+  border: none;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.4s linear;
+}
+button {
+  flex: 0 0 25%;
+  border: 1px solid black;
+  padding: 0.25rem;
+  transition: all 0.4s ease;
+}
+
+button:hover {
+  background-color: orange;
+}
+.green {
+  background-color: #efe9f4;
+}
+.grey {
+  background-color: white;
+}
+.yellow {
+  background-color: #d6d7d9;
+}
+.btn,
+.equal,
+.ac {
+  font-size: 4rem;
+}
+.ac {
+  background-color: red;
+}
+.equal {
+  background-color: #0de756;
+}
